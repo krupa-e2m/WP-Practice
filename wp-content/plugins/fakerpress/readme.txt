@@ -1,0 +1,485 @@
+=== FakerPress ===
+Contributors:      bordoni
+Tags:              generator, dummy content, lorem ipsun, testing, developer
+Requires at least: 5.5
+Tested up to:      7.0
+Requires PHP:      8.1
+Stable tag:        0.9.2
+License:           GPLv2 or later
+License URI:       http://www.gnu.org/licenses/gpl-2.0.html
+Donate link:       https://fakerpress.com/r/sponsor
+
+FakerPress is a clean way to generate fake and dummy content to your WordPress, great for developers who need testing
+
+== Description ==
+
+When creating a new theme or plugin, you always need to create a custom data set to test whether it's working as expected - or not. As developers ourselves, we've run into this problem quite often.
+
+The goal of FakerPress is to fill this gap, offering a solution for both developers and WordPress users.
+
+> **Note: This plugin requires PHP 8.1 or higher to be activated.**
+
+[**Checkout our GitHub Repository**](http://fakerpress.com/r/github)
+
+---
+
+= Components Included =
+
+* Posts
+* Custom Post Types
+* Meta Data
+* Featured Image
+* Users
+* Tags
+* Categories
+* Comments
+* Custom Comment Types
+* Attachments (NEW)
+
+= Create Dummy Content =
+
+During the development process, a WordPress developer will often need to fill up an empty theme or test site with placeholder content. Doing so manually can be time consuming. FakerPress allows you to speed up this process.
+
+= Random Featured Images =
+
+FakerPress creates randomly generated attachments as Featured Images for your WordPress test content.
+
+= Random Meta Information =
+
+FakerPress enables you to generate custom placeholder meta information for Users, Posts, Terms, and Comments with 20 types of data.
+
+= Delete Generated Content =
+
+After testing is complete, you can delete any FakerPress-generated dummy content all at once.
+
+= Randomized HTML =
+
+When creating placeholder posts, FakerPress creates randomized HTML to allow you to catch bugs that an XML import may not.
+
+= Include Images in HTML =
+
+FakerPress also allows you to output images to your HTML tests, enabling testing for placeholder media.
+
+= Comments with Real Browser Data =
+
+FakerPress includes examples of real browser data with generated comments, allowing for more robust testing.
+
+= Generate Random Terms =
+
+FakerPress includes custom settings to determine the quantity and type of terms generated for test content. The plugin then handles randomization to generate terms within those parameters for tailored test data.
+
+= Random User Profiles =
+
+Manually generated data for test profiles might not catch edge cases. With FakerPress, randomized data fills up relevant fields with randomized information for more robust testing.
+
+= Modern REST API =
+
+FakerPress now includes a comprehensive REST API for programmatic content generation. All modules support REST endpoints with batching capabilities for large-scale generation. Full OpenAPI documentation is available at `/wp-json/fakerpress/v1/docs`.
+
+= Generate Attachments =
+
+Create realistic image attachments with customizable dimensions, multiple image providers (Placehold.co, Lorem Picsum), and automatic generation of alt text, captions, and descriptions. All images include proper attribution - Lorem Picsum images credit the original Unsplash photographers.
+
+= Types of Meta Included =
+
+* Attachment
+* WP_Query
+* Number
+* Elements
+* Letter
+* Words
+* Text
+* HTML
+* Lexify
+* Asciify
+* Regexify
+* Person
+* Geo Information
+* Company
+* Date
+* TimeZone
+* Email
+* Domain
+* IP
+* Browser User Agent
+
+= Languages =
+
+To translate FakerPress into your language, please visit the project in [GlotPress](https://translate.wordpress.org/projects/wp-plugins/fakerpress/). You can find additional support and best practices through your [locale's Translation Team](https://make.wordpress.org/polyglots/teams/).
+
+= See room for improvement? =
+
+Great! There are several ways you can get involved to help make FakerPress better:
+
+1. **Report Bugs:** If you find a bug, error, or other problem, please report it! You can do this by [creating a new topic](https://wordpress.org/support/plugin/fakerpress) in the plugin forum. Once a developer can verify the bug by reproducing it, they will create an official bug report in GitHub where the bug will be worked on.
+2. **Suggest New Features:** Have an awesome idea? Please share it! Simply [create a new topic](https://wordpress.org/support/plugin/fakerpress) in the plugin forum to express your thoughts on why the feature should be included and get a discussion going around your idea.
+3. **Issue Pull Requests:** If you're a developer, the easiest way to get involved is to help out on [issues already reported](https://github.com/bordoni/fakerpress/issues) in GitHub. Be sure to check out the [contributing guide](https://github.com/bordoni/fakerpress/blob/master/contributing.md) for developers.
+
+Thank you for wanting to make FakerPress better for everyone! [We salute you](https://www.youtube.com/watch?v=8fPf6L0XNvM).
+
+== Frequently Asked Questions ==
+
+= What is FakerPress? =
+
+FakerPress is a plugin that creates placeholder content on WordPress sites. Geared towards developers, FakerPress is designed to help anyone use dummy content to test their WordPress website via randomly generated data such as posts, pages, images, and comments.
+
+= What kind of content can FakerPress create? =
+
+FakerPress can generate the following types of content:
+
+* Posts, including pages
+* Attachments (images)
+* Comments
+* Terms, including tags and categories
+* Users
+
+= Can I customize the placeholder content from FakerPress? =
+
+Yes. There are a number of settings you can customize and change when generating placeholder content with FakerPress.
+
+With FakerPress, each type of content is generated individually via the related administration page in your WordPress Dashboard under the FakerPress Settings. Each type of content includes options for how many items you would like to generate, as well as related customizations, such as:
+
+* Attachments: When generating attachment data, you can select the date range, image provider ([Placehold.co](https://placehold.co/) and [Lorem Picsum](https://picsum.photos/)), as well as the height and width or aspect ratio of the image. You can also assign images to parent posts and ask FakerPress to generate captions, alt text, and image descriptions.
+* Comments: FakerPress-generated comments can include different comment and/or post types. You can choose the number of comments generated, length, and whether HTML should be included in the sample comments, including specific HTML tags.
+* Posts: Posts generated by FakerPress include options for the quantity of posts, the desired date range, and post type. FakerPress allows you to choose the post size (in paragraphs), HTML tags, image provider, and the post excerpt size. You can also toggle comments and HTML.
+* Terms: Terms allow you to generate tags, categories, and other relevant post terms by quantity, size, and taxonomy.
+* Users: FakerPress will generate randomized users on your site, based on quantity and user roles. You can also add user descriptions, which includes settings for the length of the description, as well as HTML.
+
+= Where does the dummy data come from? =
+
+FakerPress pulls from a handful of sources, primarily leveraging data from the PHP Library called [Faker](https://fakerphp.org/). Faker uses a random number generator to select the data used for posts, terms, and all text-based data. For attachments, FakerPress pulls images from two sources: [Lorem Picsum](https://picsum.photos/) and [Placehold.co](https://placehold.co/).
+
+= Does FakerPress use AI to generate faked data? =
+
+No, though there are plans to add as an optional feature in the future.
+
+= How can I remove FakerPress-generated content? =
+
+When finished with testing, you can remove all content generated by FakerPress via the **FakerPress > Settings** page in your WordPress Dashboard. Here, follow the instructions on the page to confirm and then delete the relevant content.
+
+= Where can I report a bug or request a feature? =
+
+You can report any issues or feature requests via the [WordPress Plugin Forums](https://wordpress.org/support/plugin/fakerpress/) or via [GitHub](https://github.com/bordoni/fakerpress).
+
+= How can I get support? =
+
+For help with or questions about FakerPress, visit the [WordPress Plugin Forums](https://wordpress.org/support/plugin/fakerpress/).
+
+== Changelog ==
+
+= 0.9.2 &mdash; 20 of July 2026 =
+
+* Fix - Silence the `Using null as an array offset is deprecated` PHP 8.1+ notices logged from WordPress core's `Requests/Iri.php` when fetching external images; the Attachment module now routes `download_url()` and the Lorem Picsum metadata request through helpers that suppress the core deprecation and restore the previous error-reporting level. [[#230](https://github.com/bordoni/fakerpress/pull/230)]
+* Fix - Bulk user generation now honours the selected role instead of always assigning Subscriber; the Users endpoint prefers the admin form's plural `roles` value over the singular `role` alias's default, and the User module falls back to the site's configured default role when none is requested. [[#229](https://github.com/bordoni/fakerpress/pull/229)]
+* Fix - "Erase faked data" now deletes generated categories and other terms; `Term::fetch()`/`delete()` were reading the singular `fakerpress.module_flag.term` option while generation wrote the plural `fakerpress.module_flag.terms`, so no terms were ever collected for deletion. [[#228](https://github.com/bordoni/fakerpress/pull/228)]
+* Fix - Generate terms in the selected taxonomy again; the Terms endpoint no longer lets the singular `taxonomy` alias's `category` default overwrite the admin form's plural `taxonomies` value, so choosing Tags now creates tags instead of categories. [[#227](https://github.com/bordoni/fakerpress/pull/227)]
+* Fix - Stop the `explode(): Passing null to parameter #2` PHP 8.1+ deprecation when generating posts with a sparse payload; the `Post` module now defaults every splittable request value (comment status, author, post types, HTML tags, post parent, image origins) to an empty string before splitting. [[#224](https://github.com/bordoni/fakerpress/pull/224)]
+* Fix - Resolve the fatal error on WordPress 7.0 when generating attachments (`Call to undefined function FakerPress\Module\media_handle_sideload()`); WordPress 7.0 preloads `wp-admin/includes/file.php`, so the single `download_url()` guard skipped `media.php`. Each admin include is now guarded by the function it actually provides. [[#221](https://github.com/bordoni/fakerpress/pull/221)]
+
+= 0.9.1 &mdash; 22 of May 2026 =
+
+* Fix - Restore date-type meta generation by importing the `Chronos` class in the `WP_Meta` provider; calling `meta_type_date` no longer fatals with `Class "FakerPress\Provider\Chronos" not found`. [[#209](https://github.com/bordoni/fakerpress/pull/209)]
+* Fix - Honour the selected post type(s) on the Posts generator; the admin form's plural `post_types` value is no longer silently overwritten by the singular alias's default of `post`. [[#210](https://github.com/bordoni/fakerpress/pull/210)]
+* Fix - Suppress the `Undefined property: stdClass::$terms` warning emitted by `WP_Post::tax_input` under PHP 8.x when the taxonomy config does not include a `terms` key.
+* Tweak - REST endpoint `POST /fakerpress/v1/posts/generate` now documents `post_types` (array or comma-separated string) as the canonical parameter; the existing `post_type` singular alias is preserved for backwards compatibility.
+* Tests - Add regression coverage for `meta_type_date`, sparse `tax_input` configs, and every shape of `post_types` payload (CSV, array, singular alias, plural-wins-over-default).
+
+= 0.9.0 &mdash; 9 of March 2026 =
+
+* Feature - Complete REST API implementation replacing legacy AJAX system
+* Feature - Add comprehensive REST API endpoints for all modules (Posts, Users, Terms, Comments, Attachments)
+* Feature - Implement attachment generation with support for multiple image providers (Placehold.co, Lorem Picsum)
+* Feature - Add batching support for large data generation requests
+* Feature - Include OpenAPI documentation at `/wp-json/fakerpress/v1/docs`
+* Feature - Add attachment admin interface with customizable image dimensions and content options
+* Feature - Include automatic attribution for all generated images (Lorem Picsum credits Unsplash photographers, Placehold.co credited in captions)
+* Enhancement - Modernize JavaScript to ES6 with proper module structure
+* Enhancement - Implement proper REST authentication with wp_rest nonce verification
+* Enhancement - Add standardized error handling and validation across all endpoints
+* Enhancement - Support for generating alt text, captions, and descriptions for attachments
+* Fix - Ensure PNG format for placeholder images to avoid SVG compatibility issues
+* Fix - Fix JavaScript errors with missing field validation
+* Fix - Correct dropdown population for non-multiple select fields
+* Fix - Translate REST API parameter names to module format for Posts (`post_type`), Terms (`taxonomy`), Users (`role`), and Comments (`comment_status`)
+* Fix - Allow `post_status` parameter to be passed through REST API instead of hardcoding to `publish`
+* Fix - Map REST `comment_status` values (`hold`, `approve`, `spam`, `trash`) to WordPress `comment_approved` format
+* Fix - Prevent null `$metas` foreach crash in Term module when no meta is provided via REST API
+* Fix - Handle null `name_size` in Term module to use provider default instead of generating empty term names
+* Fix - Write mock image body to temp file in Attachment tests to support `download_url()` stream mode
+* Fix - Pass DI container to Controller constructor in filter test to prevent `ArgumentCountError`
+* Tweak - Improve parse_request methods across all modules with better type safety
+* Tweak - Add internationalization support for JavaScript files
+* Tweak - Replace font icon with SVG icon for WordPress admin menu
+
+= 0.8.0 &mdash; 20 of May 2025 =
+
+* Version - Update dependency `cakephp/chronos` to `3.1.0`
+* Version - Update PHP min version to `8.1+`
+* Fix - Resolve PHP `8.4+` problems specially arounnd incompatibility with Chronos and notices.
+
+= 0.7.2 &mdash; 18 of May 2025 =
+
+* Fix - Resolve all fatals related to compatibility with version of Faker `1.24+`.
+* Fix - Resolve some incompatibilities with WP Script build tools.
+
+= 0.7.1 &mdash; 18 of May 2025 =
+
+* Fix - Move the registration of the menus to avoid problems with `_load_textdomain_just_in_time()` notices
+* Fix - Resolve problems with `count()` applying to a String instead of an Array for PHP 8.1+
+* Fix - Resolve fatals for newChronos being a bad string replacement.
+
+= 0.7.0 &mdash; 16 of May 2025 =
+
+* Version - Update dependency `fakerphp/faker` to `1.24`
+* Version - Update dependency `lucatume/di52` to `0.4`
+* Tweak - Modified date handling from using `Carbon` to use `Chronos`.
+* Fix - Improved password for the randomized Users created, prevents weird scenarios with faked users allowing brute-force login. Props @rinatkhaziev
+* Fix - Prevent fatals related to `$min` param on Meta Value generation for PHP 8.1+. Props @kubiq
+
+= 0.6.6 &mdash; 26 of April 2024 =
+
+* Fix - Prevent notices related to deprecated usage of Faker methods that were being called as properties.
+* Fix - Prevent fatals related to bad typecasting of Faker methods used for meta generation. props @helgatheviking
+
+= 0.6.5 &mdash; 26 of April 2024 =
+
+* Fix - Ensure meta generation for Users, Terms and Comments work since changes made on version `0.6.2`. props @helgatheviking
+
+= 0.6.4 &mdash; 21 of April 2024 =
+
+* Fix - Ensure that Faker is also included via Strauss, to prevent conflicts with other plugins.
+* Fix - Resolve Fatal where trying to create posts, comments or terms would fail because of missing classes.
+
+= 0.6.3 &mdash; 21 of April 2024 =
+
+* Fix - Prevent fatal errors because of malformed composer autoload files.
+
+= 0.6.2 &mdash; 21 of April 2024 =
+
+* Version - Updated composer dependency `fakerphp/faker` to version `1.23`.
+* Feature - Include consistent user generation, to avoid users feeling a disjointed. props @helgatheviking
+* Tweak - Include the ability to regenerate module data, allowing us to fetch values from earlier generations.
+* Tweak - Include properly use Composer for autoloading and dependencies without conflicting with other plugins.
+* Tweak - Include `lucatume/di52` and `nesbot/carbon` Strauss dependencies, which prevents conflicts with other plugins.
+* Fix - Switch from using Placeholder.com to Placehold.co, as the first one was not working properly anymore. props @cgarofalo
+* Fix - Searching terms nonce had a typo, preventing terms search from working as expected. props @cyrusdavid
+* Fix - Prevent namespace problems with nonexistent classes, specially around Exceptions.
+* Fix - Resolve a problem with Numbers Meta throwing errors on PHP 8.0+ [#168]
+
+= 0.6.1 &mdash; 04 of April 2023 =
+
+* Requirement - PHP Version 7.4 required for usage of FakerPress, important step to allow further improvements and tests.
+* Version - Updated composer dependency `lucatume/di52` to version `3.3.1`.
+* Version - Updated composer dependency `fakerphp/faker` to version `1.21`.
+* Version - Updated composer dependency `nesbot/carbon` to version `2.66`.
+* Fix - Resolve some errors happening with Carbon and version 8.2 of PHP.
+
+= 0.6.0 &mdash; 30 of March 2022 =
+
+* Requirement - PHP Version 7.1 required for usage of FakerPress, important step to allow further improvements and tests.
+* Feature - Modifications to the internal Modules of FakerPress to enable future work around WP-CLI.
+* Feature - Include a new way to handle Administration Pages, included here to enable future work.
+* Enhancement - Modifications to Select2 Styles for better accessibility usage.
+* Tweak - Faker version dependency updated from `fzaninotto/Faker` to `fakerphp/Faker/`.
+* Tweak - Move everything into the FakerPress namespace.
+* Tweak - Autoload using Composer properly.
+
+= 0.5.3 &mdash; 04 of March 2022 =
+
+* Fix - Ensure Select2 usage of AJAX search properly encodes on all usages props @TheMMMdev
+* Fix - Ensure Select2 usage of AJAX properly checks for nonces and permissions props @TheMMMdev
+
+= 0.5.2 &mdash; 27 of January 2022 =
+
+* Feature: Proper changelog page for users trying to figure out what has changed in the latest version of FakerPress.
+* Feature: Excerpt size field added to ensure better control over Post generation prop @gtsantos
+* Tweak: jQuery 3.5.X compatibility
+* Fix: Prevent warning around post_excerpt usage introduced earlier on in the year. props @pattisahusiwa
+* Fix: One more PHP 8 compatibility problem related to the generation of passwords props @DumahX
+* Fix: Prevent PHP 8 from throwing a warning because of unnecessary `unlink()` call for attachments props @wpuzman
+* Fix: Resolve problems around failed inline images that were unavailable which would cause a PHP Warning.
+
+= 0.5.1 &mdash; 05 of January 2021 =
+
+* Feature: Completely change folder structure to comply with [PSR-4](https://www.php-fig.org/psr/psr-4/) autoloading with namespaces.
+* Feature: Included a Fields API to more easily generate Fields for controlling fields used in the admin pages.
+* Feature: Included a Template class to allow better separation of HTML and PHP files.
+* Tweak: Include compatibility with PHP 8+
+* Tweak: More well structured `composer.json` and using it's autoloader.
+* Tweak: All PHP files now live inside of `src` folder.
+* Tweak: Moved all files to use the `[]` array syntax.
+* Tweak: GitHub repository no longer tracks the `vendor` folder.
+* Fix: Correctly order the `fp_array_get` params with it's usage props @henrikwirth.
+* Fix: Make sure WordPress 5.6+ administration proper display fields.
+* Fix: Menu icon is properly displayed on version of WordPress 5.5 or higher
+
+= 0.5.0 &mdash; 09 of November, 2019 =
+
+* Feature: Removed 500px as a image provider as that source was deprecated a while ago.
+* Fix: Properly handle downloading of images into WordPress, which makes this a lot safer and faster.
+* Fix: Resolved the problem where images from the Meta Attachment were been generated with 0x0 size and breaking the attachment.
+* Fix: Removed 500px as a image provider as that source was deprecated a while ago.
+* Fix: Moved from Unplash.it to their new name as Lorem Picsum.
+* Tweak: Started adding proper docblocks to the new methods. Note it will take a couple versions to have all methods with proper docblocks.
+* Tweak: Control timeout of image download with filter `fakerpress.module.attachment.download_url_timeout` defaulting to 10 seconds per attachment.
+* Tweak: Update required version of PHP to 5.6 to be more along the requirements of WordPress.
+* Tweak: Test and update the version of WordPress FakerPress was tested up to, now on 5.3.
+* Tweak: Updated the version of fzaninotto/faker (v1.6.0 => v1.8.0)
+* Tweak: Updated the version of nesbot/carbon (1.21.0 => 1.39.1)
+
+= 0.4.11 &mdash; 25 of February, 2018 =
+
+* Fix: Prevent fatals from oversight with Namespace and Classnames for User and Post generation &mdash; Thanks [@radgh](https://wordpress.org/support/topic/fakerpress-generate-users-fails/) & [@johny-dotpad](https://wordpress.org/support/topic/post-generation-fails/)
+* Fix: Rollback change to `file_get_contents` it was making peoples servers hang to long &mdash; Thanks [@bilimokur](https://wordpress.org/support/topic/most-images-are-corrupted/)
+
+= 0.4.10 &mdash; 11 of February, 2018 =
+
+* Feature: Added size control to Post Content, Comment Content and User Description
+* Fix: On image and attachment download we try one more time using `file_get_contents` &mdash; Thanks [@lazlo-toth](https://wordpress.org/support/topic/most-of-the-featured-image-links-appear-to-be-invalid/)
+* Fix: Resolve Quantity Min and Max fields weird interaction &mdash; Thanks [@rahmantanvir](https://github.com/bordoni/fakerpress/issues/124)
+
+= 0.4.9 &mdash; 07 of August, 2017 =
+
+* Feature: Allow Attachments to be generated with a given Width and Height range &mdash; Thanks [@COLABORATI](https://github.com/bordoni/fakerpress/issues/86)
+* Feature: Generate `post_excerpt` for Posts (how I forgot that is beyond me) &mdash; Thanks [@njbarrett](https://github.com/bordoni/fakerpress/issues/104)
+* Fix: Meta field rules were not respecting Configurations due to a JavaScript bug on indexing the fields &mdash; Thanks [@ckpicker](https://github.com/bordoni/fakerpress/issues/115)
+* Fix: Resolve problems where attachments wouldn't get setup correctly and throw an Empty Message &mdash; Thanks [@r083r7 and @oyvind_skjelstad](https://wordpress.org/support/topic/featured-image-not-showing-up-6)
+* Fix: Allow Term Meta to generate the fields correctly again &mdash; Thanks [@stratboy](https://github.com/bordoni/fakerpress/issues/105)
+* Tweak: Prevent `_encloseme` and `_pingme` for FakerPress generated Posts
+
+= 0.4.8 &mdash; 18 of July, 2017 =
+
+* Feature: Now Comments can be generated with different types, allowing for WooCommerce Notes for example - Thanks [@dibbyo456](https://wordpress.org/support/topic/can-i-create-custom-comments/)
+* Feature: Comments for Custom Post Types - Thanks [@jasondevine](https://github.com/bordoni/fakerpress/issues/109)
+* Tweak: Added two new filters to Filter Meta Value `fakerpress.module.meta.value` and `fakerpress.module.meta.{$key}.value` - Thanks [@Mte90](https://github.com/bordoni/fakerpress/pull/111)
+* Fix: Resolve problems on failed Meta generation - Thanks [@Mte90](https://github.com/bordoni/fakerpress/pull/110)
+* Fix: Typo on Provider text for Attachment Meta - Thanks [@codiceovvio](https://github.com/bordoni/fakerpress/pull/103)
+
+= 0.4.7 &mdash; 2 of October, 2016 =
+
+* Feature: Image Attachment Meta Field to allow more Flexibility all around the plugin
+
+= 0.4.6 &mdash; 14 of June, 2016 =
+
+* Fix: Post Meta and taxonomy is finally working again &mdash; Thanks [@peachey_a](https://wordpress.org/support/topic/generated-posts-not-assigned-categories) and [@zoeitsolutions](https://wordpress.org/support/topic/user-meta-not-being-generated)
+* Fix: Allow Meta Number generation using any type of range, doesn't limit from 0 to 9
+
+= 0.4.5 &mdash; 11 of June, 2016 =
+
+* Fix: Users Module was using Post Meta methods on flag related methods, preventing the users to be deleted when "Let it Go!" &mdash; Thanks [@derpixler](https://github.com/bordoni/fakerpress/issues/84)
+* Fix: Taxonomy and Meta Modules had a compatibility problem with Faker, preveting users to use Meta and Taxonomy Properly &mdash; Thanks [@rayrutjes](https://github.com/bordoni/fakerpress/issues/94)
+* Tweak: Add a better description for a few fields
+* Tweak: Include [latest code from Faker](https://github.com/fzaninotto/Faker) version > 1.6.0
+
+= 0.4.4 &mdash; 1 of April, 2016 =
+
+* Feature: Address Meta templating now allows you to fetch Country ABBR and Code &mdash; Thanks [@kirilisa](https://wordpress.org/support/topic/excellent-3360)
+* Tweak: Include [latest code from Faker](https://github.com/fzaninotto/Faker) version > 1.5.0
+* Tweak: WP_Query Meta for attachments is a little bit easier now, prediction of forgotten `post_status`
+* Tweak: Make the Post Parent selection easier to know which posts by showing more information on the items &mdash; Thanks [@fxbernard](https://github.com/bordoni/fakerpress/issues/81)
+* Fix: Get some missing Text Domains working &mdash; Thanks [@ginsterbusch](https://github.com/bordoni/fakerpress/issues/77)
+
+= 0.4.3 &mdash; 1 of March, 2016 =
+
+* Feature: No more Hot-linking external sites on Content Images &mdash; Thanks [b0rg](https://profiles.wordpress.org/b0rg) + [mvaneijgen](https://profiles.wordpress.org/mvaneijgen) + [okvee](https://profiles.wordpress.org/okvee)
+* Tweak: Use `wp_remote_get` to fetch external images &mdash; Thanks [revaxarts](https://twitter.com/revaxarts)
+* Tweak: Improve how we handle the Deletes to make sure it doesn't delete all your site &mdash; Thanks [Paul Mckay](https://twitter.com/McKay_1988/status/700299519825723392)
+* Fix: Prevent Notices from happening when no Image providers were selected
+
+= 0.4.2 &mdash; 9 of November, 2015 =
+
+* Feature: Include meta for Terms for WordPress 4.4 and Up
+* Tweak: Include a more granular control over Taxonomy selector for Posts
+* Fix: CSS changes for WordPress 4.4
+
+= 0.4.1 &mdash; 24 of September, 2015 =
+
+* Tweak: Improve Modules code in general, if you have custom code based on Modules please check ([#71](https://github.com/bordoni/fakerpress/pull/71))
+* Fix: Generate button was locking after a warning for trying a bad request
+* Fix: Improved Modules JavaScript to prevent duplicated arguments on AJAX requests &mdash; Thanks [Jonathan Brinley](https://profiles.wordpress.org/jbrinley/)
+
+= 0.4.0 &mdash; 21 of September, 2015 =
+
+* Feature: Now Modules use AJAX to fake, AKA no more timeouts for big dummy creation
+* Fix: handle WP_Error on term creation, avoids fatal errors if the term already exists &mdash; Thanks [Jonathan Brinley](https://profiles.wordpress.org/jbrinley/)
+
+= 0.3.3 &mdash; 10 of June, 2015 =
+
+* Tweak: Our menus and submenus no longer require JavaScript to work
+* Tweak: Featured Images now are linked to the post using the `post_parent` column &mdash; Reported by [Bruno DC](https://profiles.wordpress.org/decarvalho_bruno)
+* Fix: Dates on Meta fields are fully working again &mdash; Thanks [Ethan Clevenger](https://profiles.wordpress.org/eclev91)
+
+= 0.3.2 &mdash; 25 of May, 2015 =
+
+* New: Including LoremPixel as a Image Provider &mdash; Thanks [examinedliving](https://github.com/examinedliving)
+* Fix: A few JavaScript/jQuery tweaks for better Select2 Handling on Dates
+* Fix: Intervals now have a better Handling for non-timed Strings &mdash; Thanks [alfiemx_](https://profiles.wordpress.org/alfiemx_)
+* Fix: Better verification of Carbon inclusion &mdash; Thanks [Frankie Jarrett](https://profiles.wordpress.org/fjarrett/)
+* Fix: Closures now using self variables better, prevents Fatal Error &mdash; Thanks [fccoelho7](https://profiles.wordpress.org/fccoelho7/)
+
+= 0.3.1 &mdash; 02 of May, 2015 =
+
+* Fix: Date Meta Field is now working as expected
+* Fix: Empty meta fields don't throw Fatal Errors anymore &mdash; Thanks [Jeffrey Carandang](https://profiles.wordpress.org/phpbits/)
+
+= 0.3.0 &mdash; 01 of May, 2015 =
+
+* New: Now you will be able to generate Custom dummy Meta for your Posts, Users and Comments
+
+= 0.2.2 &mdash; 15 of April, 2015 =
+
+* New: 500px as a Image provider ( You will need a Customer App Key )
+* Tweak: New formula for Taxonomy randomization for Posts ( with new filters )
+
+= 0.2.1 &mdash; 02 of April, 2015 =
+
+* Fix: User generator now working again (sorry about that)
+
+= 0.2.0 &mdash; 01 of April, 2015 =
+
+* New: Featured Images is now an Option on our Plugin
+* New: Handling of Post Meta, still under the hood but preparation for the next versions
+
+= 0.1.6 &mdash; 07 of March, 2015 =
+
+* Fix: Prevent Carbon to Fatal error if trying to be included twice ([#50](https://github.com/bordoni/fakerpress/issues/50))
+* Tweak: Better checking for the content flag when deleting
+
+= 0.1.5 &mdash; 03 September, 2014 =
+
+* New: Allow post Parent to be chosen on the Admin Form ([#35](https://github.com/bordoni/fakerpress/issues/35))
+* New: Now allow Image to be used in HTML, with Placehold.it ([#38](https://github.com/bordoni/fakerpress/issues/38))
+* Tweak: Allow users to choose which HTML tags will be used ([#37](https://github.com/bordoni/fakerpress/issues/37))
+* Tweak: User Select2 now uses AJAX to prevent bugs on bigger databases ([#43](https://github.com/bordoni/fakerpress/issues/43))
+* Tweak: Now you can select a range of items to be randomized, instead of always having to input a single number ([#44](https://github.com/bordoni/fakerpress/issues/44))
+
+= 0.1.4 &mdash; 15 of August, 2014 =
+
+* New: Delete all content created by Fakerpress ([#26](https://github.com/bordoni/fakerpress/issues/26))
+* New: Allow users to control `comment_status` on Posts ([#26](https://github.com/bordoni/fakerpress/issues/26))
+* New: Predefined interval set of dates ([#21](https://github.com/bordoni/fakerpress/issues/21))
+* Tweak: Prevent the user from selecting a bad combination of date fields ([#20](https://github.com/bordoni/fakerpress/issues/20))
+
+= 0.1.3 &mdash; 25 of June, 2014 =
+
+* Fixing a problem where the UI folder was not included in the final version
+
+= 0.1.2 &mdash; 24 of June, 2014 =
+
+* New: Admin messages for all pages ([#10](https://github.com/bordoni/fakerpress/issues/10))
+* New: Select Date range for Comments and Posts ([#11](https://github.com/bordoni/fakerpress/issues/11))
+* New: Select Author sampling group for Posts ([#11](https://github.com/bordoni/fakerpress/issues/11))
+* New: Roles sampling group for Users ([#13](https://github.com/bordoni/fakerpress/issues/13))
+* New: Taxonomies sampling group for Terms ([#13](https://github.com/bordoni/fakerpress/issues/13))
+* New: Selection of Post Type for Posts ([#13](https://github.com/bordoni/fakerpress/issues/13))
+* New: Selection of Terms sampling group for Posts ([#13](https://github.com/bordoni/fakerpress/issues/13))
+* Tweak: Select2 usage to improve fields ([#13](https://github.com/bordoni/fakerpress/issues/13))
+* Fix: `admin_title` been overwritten ([#14](https://github.com/bordoni/fakerpress/issues/14))
+
+= 0.1.1 &mdash; 17 of June, 2014 =
+
+* Fatal Error generate by a missing file Carbon related fixed
+
+= 0.1.0 &mdash; 17 of June, 2014 =
+
+* First initial concept of using [Faker](https://github.com/fzaninotto/Faker) to generate data on WordPress

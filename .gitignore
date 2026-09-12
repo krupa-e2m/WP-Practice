@@ -1,0 +1,10 @@
+wp-admin/
+wp-includes/
+wp-*.php
+wp-config.php
+.env
+node_modules/
+wp-content/uploads/
+wp-content/cache/
+.DS_Store
+Thumbs.db

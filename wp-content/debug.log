@@ -1,0 +1,356 @@
+[08-Sep-2026 08:05:51 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303
+[08-Sep-2026 08:07:35 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303
+[08-Sep-2026 08:07:47 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303
+[08-Sep-2026 08:07:47 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303
+[08-Sep-2026 08:08:38 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303
+[08-Sep-2026 08:08:38 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303
+[08-Sep-2026 12:14:15 UTC] Automatic updates starting...
+[08-Sep-2026 12:14:19 UTC] Automatic updates complete.
+[09-Sep-2026 05:26:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\class-wpdb.php on line 1990
+[09-Sep-2026 09:24:32 UTC] PHP Warning:  translations_api(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\functions.php on line 6260
+[10-Sep-2026 08:24:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\class-wpdb.php on line 1990
+[10-Sep-2026 10:32:07 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\class-wpdb.php on line 1990
+[10-Sep-2026 10:32:38 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303
+[10-Sep-2026 11:56:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\class-wpdb.php on line 1990
+[10-Sep-2026 12:21:26 UTC] Automatic updates starting...
+[10-Sep-2026 12:21:27 UTC] Automatic updates complete.
+[11-Sep-2026 04:04:54 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\class-wpdb.php on line 1990
+[11-Sep-2026 04:17:10 UTC] PHP Deprecated:  usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in phar://C:/Users/Krupa Thakkar/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/Option_Command.php on line 319
+[11-Sep-2026 04:22:42 UTC] PHP Deprecated:  usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in phar://C:/Users/Krupa Thakkar/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/Option_Command.php on line 319
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:03 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:03 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 27
+[11-Sep-2026 06:30:04 UTC] PHP Warning:  Undefined variable $content in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-day2\krupat-day2.php on line 36
+[11-Sep-2026 06:30:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5777
+[11-Sep-2026 07:02:41 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5784
+[11-Sep-2026 07:03:24 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\formatting.php on line 5784
+[11-Sep-2026 07:07:38 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303
+[11-Sep-2026 07:13:15 UTC] PHP Parse error:  syntax error, unexpected token "return" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\krupat-module3.php on line 64
+[11-Sep-2026 07:28:21 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 07:28:21 UTC] Post ID: 128
+[11-Sep-2026 07:28:21 UTC] Post Title: Et maiores maxime enim qui
+[11-Sep-2026 07:28:23 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 07:28:23 UTC] Post ID: 128
+[11-Sep-2026 07:28:23 UTC] Post Title: Et maiores maxime enim qui
+[11-Sep-2026 07:51:21 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\functions.php on line 6260
+[11-Sep-2026 08:56:03 UTC] PHP Parse error:  syntax error, unexpected identifier "the" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\a-module3-extension.php on line 28
+[11-Sep-2026 08:56:04 UTC] PHP Parse error:  syntax error, unexpected identifier "the" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\a-module3-extension.php on line 28
+[11-Sep-2026 08:56:19 UTC] PHP Parse error:  syntax error, unexpected identifier "the" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\a-module3-extension.php on line 28
+[11-Sep-2026 08:56:21 UTC] PHP Parse error:  syntax error, unexpected identifier "the" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\a-module3-extension.php on line 28
+[11-Sep-2026 08:56:21 UTC] PHP Parse error:  syntax error, unexpected identifier "the" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\a-module3-extension.php on line 28
+[11-Sep-2026 08:56:45 UTC] PHP Parse error:  syntax error, unexpected identifier "the" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\a-module3-extension.php on line 28
+[11-Sep-2026 08:56:46 UTC] PHP Parse error:  syntax error, unexpected identifier "the" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\a-module3-extension.php on line 28
+[11-Sep-2026 08:57:15 UTC] PHP Parse error:  syntax error, unexpected identifier "the" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\a-module3-extension.php on line 28
+[11-Sep-2026 08:57:24 UTC] PHP Parse error:  syntax error, unexpected identifier "the" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\a-module3-extension.php on line 28
+[11-Sep-2026 08:57:25 UTC] PHP Parse error:  syntax error, unexpected identifier "the" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\krupat-module3\a-module3-extension.php on line 28
+[11-Sep-2026 10:18:12 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\class-wpdb.php on line 1990
+[11-Sep-2026 11:12:17 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303
+[11-Sep-2026 12:16:18 UTC] Automatic updates starting...
+[11-Sep-2026 12:16:18 UTC]   Automatic plugin updates starting...
+[11-Sep-2026 12:16:18 UTC]   Automatic plugin updates complete.
+[11-Sep-2026 12:16:18 UTC] Automatic updates complete.
+[11-Sep-2026 12:29:57 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:29:57 UTC] Post ID: 141
+[11-Sep-2026 12:29:57 UTC] Post Title: Auto Draft
+[11-Sep-2026 12:33:33 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:33:33 UTC] Post ID: 78
+[11-Sep-2026 12:33:34 UTC] Post Title: example-project
+[11-Sep-2026 12:33:34 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:33:34 UTC] Post ID: 79
+[11-Sep-2026 12:33:34 UTC] Post Title: Field1
+[11-Sep-2026 12:38:07 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:38:07 UTC] Post ID: 141
+[11-Sep-2026 12:38:07 UTC] Post Title: Demo
+[11-Sep-2026 12:40:59 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\class-wpdb.php on line 1990
+[11-Sep-2026 12:46:09 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:46:09 UTC] Post ID: 143
+[11-Sep-2026 12:46:09 UTC] Post Title: Auto Draft
+[11-Sep-2026 12:47:47 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:47:47 UTC] Post ID: 144
+[11-Sep-2026 12:47:47 UTC] Post Title: group_6a9e938968819
+[11-Sep-2026 12:47:47 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:47:47 UTC] Post ID: 145
+[11-Sep-2026 12:47:47 UTC] Post Title: Field1
+[11-Sep-2026 12:47:47 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:47:47 UTC] Post ID: 144
+[11-Sep-2026 12:47:47 UTC] Post Title: example-project
+[11-Sep-2026 12:56:31 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:56:31 UTC] Post ID: 146
+[11-Sep-2026 12:56:31 UTC] Post Title: Auto Draft
+[11-Sep-2026 12:59:41 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:59:41 UTC] Post ID: 146
+[11-Sep-2026 12:59:41 UTC] Post Title: Demo
+[11-Sep-2026 12:59:41 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 12:59:41 UTC] Post ID: 146
+[11-Sep-2026 12:59:41 UTC] Post Title: Demo
+[11-Sep-2026 13:04:31 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:04:31 UTC] Post ID: 81
+[11-Sep-2026 13:04:31 UTC] Post Title: Example2
+[11-Sep-2026 13:04:31 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:04:31 UTC] Post ID: 82
+[11-Sep-2026 13:04:31 UTC] Post Title: Section1
+[11-Sep-2026 13:04:52 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:04:52 UTC] Post ID: 81
+[11-Sep-2026 13:04:52 UTC] Post Title: Example2
+[11-Sep-2026 13:04:52 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:04:52 UTC] Post ID: 82
+[11-Sep-2026 13:04:52 UTC] Post Title: Section1
+[11-Sep-2026 13:05:22 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:22 UTC] Post ID: 81
+[11-Sep-2026 13:05:22 UTC] Post Title: Example2
+[11-Sep-2026 13:05:22 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:22 UTC] Post ID: 82
+[11-Sep-2026 13:05:22 UTC] Post Title: Section1
+[11-Sep-2026 13:05:55 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:55 UTC] Post ID: 148
+[11-Sep-2026 13:05:55 UTC] Post Title: group_6a9e97f388911
+[11-Sep-2026 13:05:55 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:55 UTC] Post ID: 149
+[11-Sep-2026 13:05:55 UTC] Post Title: Section1
+[11-Sep-2026 13:05:55 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:55 UTC] Post ID: 150
+[11-Sep-2026 13:05:55 UTC] Post Title: Title
+[11-Sep-2026 13:05:55 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:55 UTC] Post ID: 151
+[11-Sep-2026 13:05:55 UTC] Post Title: SubTitle
+[11-Sep-2026 13:05:55 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:55 UTC] Post ID: 152
+[11-Sep-2026 13:05:55 UTC] Post Title: Background
+[11-Sep-2026 13:05:55 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:55 UTC] Post ID: 153
+[11-Sep-2026 13:05:55 UTC] Post Title: t1
+[11-Sep-2026 13:05:55 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:55 UTC] Post ID: 154
+[11-Sep-2026 13:05:55 UTC] Post Title: try
+[11-Sep-2026 13:05:55 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:55 UTC] Post ID: 155
+[11-Sep-2026 13:05:55 UTC] Post Title: try2
+[11-Sep-2026 13:05:55 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:05:55 UTC] Post ID: 148
+[11-Sep-2026 13:05:55 UTC] Post Title: Example2
+[11-Sep-2026 13:06:52 UTC] --- Module 3 Save Post Triggered ---
+[11-Sep-2026 13:06:52 UTC] Post ID: 156
+[11-Sep-2026 13:06:52 UTC] Post Title: Auto Draft
+[12-Sep-2026 04:23:22 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-includes\class-wpdb.php on line 1990
+[12-Sep-2026 04:23:52 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303
+[12-Sep-2026 04:33:34 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:33:34 UTC] Post ID: 157
+[12-Sep-2026 04:33:34 UTC] Post Title: page-sample-page
+[12-Sep-2026 04:36:51 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:36:51 UTC] Post ID: 158
+[12-Sep-2026 04:36:51 UTC] Post Title: Footer menu
+[12-Sep-2026 04:39:57 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:39:57 UTC] Post ID: 157
+[12-Sep-2026 04:39:57 UTC] Post Title: page-sample-page
+[12-Sep-2026 04:39:57 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:39:57 UTC] Post ID: 158
+[12-Sep-2026 04:39:57 UTC] Post Title: Footer menu
+[12-Sep-2026 04:39:58 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:39:58 UTC] Post ID: 161
+[12-Sep-2026 04:39:58 UTC] Post Title: Footer
+[12-Sep-2026 04:39:58 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:39:58 UTC] Post ID: 157
+[12-Sep-2026 04:39:58 UTC] Post Title: page-sample-page
+[12-Sep-2026 04:41:54 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:41:54 UTC] Post ID: 163
+[12-Sep-2026 04:41:54 UTC] Post Title: Page: 404
+[12-Sep-2026 04:48:26 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:48:26 UTC] Post ID: 164
+[12-Sep-2026 04:48:26 UTC] Post Title: Index
+[12-Sep-2026 04:55:50 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:55:50 UTC] Post ID: 165
+[12-Sep-2026 04:55:50 UTC] Post Title: Destination template
+[12-Sep-2026 04:57:20 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:57:20 UTC] Post ID: 165
+[12-Sep-2026 04:57:20 UTC] Post Title: Destination template
+[12-Sep-2026 04:57:20 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:57:20 UTC] Post ID: 58
+[12-Sep-2026 04:57:20 UTC] Post Title: Asia
+[12-Sep-2026 04:57:21 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:57:21 UTC] Post ID: 58
+[12-Sep-2026 04:57:21 UTC] Post Title: Asia
+[12-Sep-2026 04:57:21 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 04:57:21 UTC] Post ID: 58
+[12-Sep-2026 04:57:21 UTC] Post Title: Asia
+[12-Sep-2026 05:44:04 UTC] --- Module 3 Save Post Triggered ---
+[12-Sep-2026 05:44:04 UTC] Post ID: 168
+[12-Sep-2026 05:44:04 UTC] Post Title: Privacy Policy
+[12-Sep-2026 08:13:12 UTC] PHP Warning:  Undefined array key "message" in C:\Users\Krupa Thakkar\Local Sites\admin\app\public\wp-content\plugins\query-monitor\collectors\http.php on line 303

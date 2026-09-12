@@ -1,0 +1,90 @@
+<?php return array (
+  'root' => 
+  array (
+    'name' => 'bordoni/fakerpress',
+    'pretty_version' => '0.9.2',
+    'version' => '0.9.2.0',
+    'reference' => 'e833f1fd0f25b81b0010105c4bc95347f9af60bb',
+    'type' => 'wordpress-plugin',
+    'install_path' => __DIR__ . '/../',
+    'aliases' => 
+    array (
+    ),
+    'dev' => false,
+  ),
+  'versions' => 
+  array (
+    'cakephp/chronos' => 
+    array (
+      'pretty_version' => '3.3.1',
+      'version' => '3.3.1.0',
+      'reference' => '1e417fdd4a3c6602b6c4634cf54aa9b065127fa2',
+      'type' => 'library',
+      'install_path' => __DIR__ . '/../cakephp/chronos',
+      'aliases' => 
+      array (
+      ),
+      'dev_requirement' => false,
+    ),
+    'fakerphp/faker' => 
+    array (
+      'pretty_version' => 'v1.24.1',
+      'version' => '1.24.1.0',
+      'reference' => 'e0ee18eb1e6dc3cda3ce9fd97e5a0689a88a64b5',
+      'type' => 'library',
+      'install_path' => __DIR__ . '/../fakerphp/faker',
+      'aliases' => 
+      array (
+      ),
+      'dev_requirement' => false,
+    ),
+    'lucatume/di52' => 
+    array (
+      'pretty_version' => '4.0.1',
+      'version' => '4.0.1.0',
+      'reference' => '1552a86bf17db4cb098db368d2e4cbb508dcaec0',
+      'type' => 'library',
+      'install_path' => __DIR__ . '/../lucatume/di52',
+      'aliases' => 
+      array (
+      ),
+      'dev_requirement' => false,
+    ),
+    'psr/clock' => 
+    array (
+      'pretty_version' => '1.0.0',
+      'version' => '1.0.0.0',
+      'reference' => 'e41a24703d4560fd0acb709162f73b8adfc3aa0d',
+      'type' => 'library',
+      'install_path' => __DIR__ . '/../psr/clock',
+      'aliases' => 
+      array (
+      ),
+      'dev_requirement' => false,
+    ),
+    'psr/container' => 
+    array (
+      'pretty_version' => '1.1.2',
+      'version' => '1.1.2.0',
+      'reference' => '513e0666f7216c7459170d56df27dfcefe1689ea',
+      'type' => 'library',
+      'install_path' => __DIR__ . '/../psr/container',
+      'aliases' => 
+      array (
+      ),
+      'dev_requirement' => false,
+    ),
+    'symfony/deprecation-contracts' => 
+    array (
+      'pretty_version' => 'v3.6.0',
+      'version' => '3.6.0.0',
+      'reference' => '63afe740e99a13ba87ec199bb07bbdee937a5b62',
+      'type' => 'library',
+      'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
+      'aliases' => 
+      array (
+      ),
+      'dev_requirement' => false,
+    ),
+  ),
+);
