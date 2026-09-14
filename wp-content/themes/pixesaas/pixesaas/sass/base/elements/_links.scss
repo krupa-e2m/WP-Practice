@@ -1,15 +1,12 @@
+// The starter theme shipped a link palette — royalblue, purple when visited,
+// midnightblue on hover — that is not in the PixeSaaS design tokens. Because
+// `a:visited` and `a:hover` are more specific (0,1,1) than the single-class
+// colours the sections declare (0,1,0), they overrode the design: the brand
+// wordmark, "Login", "Learn more", the footer email and the button labels all
+// turned purple once the link had been visited. Only the resting colour is kept
+// here, so every colour the design sets wins the cascade.
 a {
 	color: $color__link;
-
-	&:visited {
-		color: $color__link-visited;
-	}
-
-	&:hover,
-	&:focus,
-	&:active {
-		color: $color__link-hover;
-	}
 
 	&:focus {
 		outline: thin dotted;

@@ -59,19 +59,10 @@ $pixesaas_has_actions = ( $pixesaas_login || pixesaas_link( $pixesaas_cta ) );
 				<span class="ps-header__name"><?php echo esc_html( $pixesaas_brand ); ?></span>
 			</a>
 
-			<?php if ( $pixesaas_has_menu || $pixesaas_has_actions ) : ?>
-
-				<button class="ps-header__toggle" aria-controls="site-navigation" aria-expanded="false" data-nav-toggle>
-					<span aria-hidden="true"></span>
-					<span aria-hidden="true"></span>
-					<span aria-hidden="true"></span>
-					<span class="screen-reader-text"><?php esc_html_e( 'Menu', 'pixesaas' ); ?></span>
-				</button>
-
+			<?php if ( $pixesaas_has_menu ) : ?>
 				<nav id="site-navigation" class="ps-header__nav" aria-label="<?php esc_attr_e( 'Primary menu', 'pixesaas' ); ?>" data-nav-panel>
 					<div class="ps-header__nav-inner">
-					<?php
-					if ( $pixesaas_has_menu ) {
+						<?php
 						wp_nav_menu(
 							array(
 								'theme_location' => 'menu-1',
@@ -81,23 +72,36 @@ $pixesaas_has_actions = ( $pixesaas_login || pixesaas_link( $pixesaas_cta ) );
 								'depth'          => 2,
 							)
 						);
-					}
-					?>
-
-					<?php if ( $pixesaas_has_actions ) : ?>
-						<div class="ps-header__actions">
-							<?php if ( $pixesaas_login && '' !== $pixesaas_login['title'] ) : ?>
-								<a class="ps-header__login" href="<?php echo esc_url( $pixesaas_login['url'] ); ?>"<?php echo pixesaas_target_atts( $pixesaas_login['target'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in helper. ?>>
-									<?php echo esc_html( $pixesaas_login['title'] ); ?>
-								</a>
-							<?php endif; ?>
-
-							<?php pixesaas_button( $pixesaas_cta ); ?>
-						</div>
-					<?php endif; ?>
+						?>
 					</div>
 				</nav><!-- #site-navigation -->
+			<?php endif; ?>
 
+			<?php
+			/*
+			 * Login and the CTA stay in the bar at every width — only the menu
+			 * itself collapses into the toggle panel.
+			 */
+			if ( $pixesaas_has_actions ) :
+				?>
+				<div class="ps-header__actions">
+					<?php if ( $pixesaas_login && '' !== $pixesaas_login['title'] ) : ?>
+						<a class="ps-header__login" href="<?php echo esc_url( $pixesaas_login['url'] ); ?>"<?php echo pixesaas_target_atts( $pixesaas_login['target'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in helper. ?>>
+							<?php echo esc_html( $pixesaas_login['title'] ); ?>
+						</a>
+					<?php endif; ?>
+
+					<?php pixesaas_button( $pixesaas_cta ); ?>
+				</div>
+			<?php endif; ?>
+
+			<?php if ( $pixesaas_has_menu ) : ?>
+				<button class="ps-header__toggle" aria-controls="site-navigation" aria-expanded="false" data-nav-toggle>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span class="screen-reader-text"><?php esc_html_e( 'Menu', 'pixesaas' ); ?></span>
+				</button>
 			<?php endif; ?>
 
 		</div>

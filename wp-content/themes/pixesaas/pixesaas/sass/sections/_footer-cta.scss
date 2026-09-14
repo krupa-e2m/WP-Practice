@@ -7,11 +7,14 @@
 		gap: 40px;
 
 		@include ps-from("md") {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
+			grid-template-columns: repeat(3, minmax(0, 1fr));
 		}
 
+		// The three link columns size to their own content — equal 1fr tracks
+		// squeezed the address onto two lines and wrapped the social row. The
+		// intro takes whatever is left, so the row can never overflow.
 		@include ps-from("lg") {
-			grid-template-columns: minmax(0, 432px) repeat(3, minmax(0, 1fr));
+			grid-template-columns: minmax(0, 1fr) repeat(3, max-content);
 			gap: 60px;
 		}
 	}
@@ -30,6 +33,12 @@
 		@include ps-from("lg") {
 			grid-column: auto;
 			gap: 45px;
+
+			// Figma gives the CTA block 432px. Our Inter renders ~1.4% wider than
+			// the frame, which pushed "your card now." onto a third line at
+			// exactly 432; the small allowance restores the designed two-line
+			// wrap without letting the measure sprawl.
+			max-width: 460px;
 		}
 	}
 
@@ -85,7 +94,11 @@
 	}
 
 	&__email {
-		@include ps-safe-text;
+		// Deliberately `break-word`, not the `anywhere` that ps-safe-text applies:
+		// an address must count its full width towards the column so it stays on
+		// one line, and only break if the screen really is narrower than it.
+		word-wrap: break-word;
+		overflow-wrap: break-word;
 
 		display: inline-block;
 		margin: 0 0 20px;
