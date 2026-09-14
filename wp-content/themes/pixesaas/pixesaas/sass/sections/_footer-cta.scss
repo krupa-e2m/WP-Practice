@@ -1,0 +1,176 @@
+// Layout: footer_cta — Figma "Footer" (1:3911) + black copyright bar (1:3951)
+.ps-footercta {
+	border-top: 1px solid $ps-border;
+
+	&__inner {
+		display: grid;
+		gap: 40px;
+
+		@include ps-from("md") {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		@include ps-from("lg") {
+			grid-template-columns: minmax(0, 432px) repeat(3, minmax(0, 1fr));
+			gap: 60px;
+		}
+	}
+
+	&__intro {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		align-items: flex-start;
+		min-width: 0;
+
+		@include ps-from("md") {
+			grid-column: 1 / -1;
+		}
+
+		@include ps-from("lg") {
+			grid-column: auto;
+			gap: 45px;
+		}
+	}
+
+	&__title {
+		@include ps-type("h2");
+		@include ps-safe-text;
+
+		margin: 0;
+		font-weight: $ps-semibold;
+		line-height: $ps-lh-heading;
+	}
+
+	&__col {
+		min-width: 0;
+	}
+
+	&__col-title {
+		@include ps-type("h6");
+		@include ps-safe-text;
+
+		margin: 0 0 24px;
+		font-weight: $ps-medium;
+
+		@include ps-from("lg") {
+			margin-bottom: 35px;
+		}
+	}
+
+	&__links {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		@include ps-from("lg") {
+			gap: 20px;
+		}
+
+		a {
+			@include ps-safe-text;
+
+			font-size: 18px;
+			color: $ps-black;
+			text-decoration: none;
+
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	&__email {
+		@include ps-safe-text;
+
+		display: inline-block;
+		margin: 0 0 20px;
+		font-size: 18px;
+		color: $ps-black;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
+	}
+
+	&__social {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+
+		a {
+			display: inline-flex;
+			transition: transform 0.2s ease;
+
+			&:hover,
+			&:focus {
+				transform: translateY(-2px);
+			}
+		}
+
+		img {
+			width: 36px;
+			height: 36px;
+		}
+	}
+}
+
+// Black copyright bar.
+.ps-copyright {
+	padding: 24px 0;
+	color: $ps-white;
+	background-color: $ps-black;
+
+	&__inner {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 16px 32px;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__text {
+		@include ps-safe-text;
+
+		margin: 0;
+		font-size: 16px;
+	}
+
+	&__links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 16px 32px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		a {
+			font-size: 16px;
+			color: $ps-white;
+			text-decoration: none;
+
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	@include ps-until("md") {
+
+		&__inner {
+			flex-direction: column;
+			text-align: center;
+		}
+
+		&__links {
+			justify-content: center;
+		}
+	}
+}

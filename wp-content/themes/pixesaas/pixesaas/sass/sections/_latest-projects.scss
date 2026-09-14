@@ -1,0 +1,171 @@
+// Layout: latest_projects — dynamic section, queries the `project` CPT.
+// Visual language follows the Figma blog cards (1:3880) so the two sit together.
+.ps-projects {
+
+	&__head {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 24px;
+		align-items: flex-end;
+		justify-content: space-between;
+		margin-bottom: 40px;
+
+		@include ps-from("lg") {
+			margin-bottom: 50px;
+		}
+	}
+
+	&__grid {
+		display: grid;
+		gap: 32px;
+
+		@include ps-from("md") {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		@include ps-from("lg") {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+	}
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		overflow: hidden;
+		background-color: $ps-white;
+		border: 1px solid $ps-border;
+		border-radius: $ps-radius;
+		transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+		&:hover,
+		&:focus-within {
+			transform: translateY(-2px);
+			box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+		}
+	}
+
+	&__media {
+		@include ps-media-box(352, 250);
+
+		position: relative;
+	}
+
+	// Placeholder shown when a project has no featured image.
+	&__media--empty {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: $ps-grey-bg;
+
+		span {
+			@include ps-type("h3");
+
+			font-weight: $ps-semibold;
+			color: rgba(0, 0, 0, 0.12);
+		}
+	}
+
+	&__tag {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		z-index: 2;
+		max-width: calc(100% - 40px);
+		padding: 8px 10px;
+		overflow: hidden;
+		font-size: 14px;
+		color: $ps-white;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		background-color: $ps-black;
+		border-radius: $ps-radius;
+	}
+
+	&__body {
+		display: flex;
+		flex: 1 1 auto;
+		flex-direction: column;
+		gap: 16px;
+		padding: 28px 24px;
+
+		@include ps-from("lg") {
+			gap: 20px;
+			padding: 32px 30px;
+		}
+	}
+
+	&__title {
+		@include ps-type("h6");
+		@include ps-safe-text;
+
+		margin: 0;
+		font-weight: $ps-medium;
+		line-height: $ps-lh-heading;
+
+		a {
+			color: inherit;
+			text-decoration: none;
+
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	&__excerpt {
+		@include ps-safe-text;
+
+		margin: 0;
+		font-size: 16px;
+		color: $ps-grey;
+	}
+
+	&__meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px 16px;
+		margin: 0;
+		font-size: 14px;
+		color: $ps-grey;
+
+		dt {
+			font-weight: $ps-medium;
+			color: $ps-black;
+		}
+
+		dd {
+			margin: 0;
+		}
+	}
+
+	&__foot {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
+		margin-top: auto;
+		padding-top: 8px;
+		font-size: 16px;
+	}
+
+	&__date {
+		color: $ps-grey;
+	}
+
+	&__arrow {
+		display: inline-flex;
+
+		img {
+			width: 15px;
+			height: 12px;
+			transition: transform 0.2s ease;
+		}
+
+		&:hover img,
+		&:focus img {
+			transform: translateX(4px);
+		}
+	}
+}

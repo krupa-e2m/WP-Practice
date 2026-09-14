@@ -1,0 +1,102 @@
+// Layout: stats_media — Figma "Container 05" (1:215)
+.ps-statsmedia {
+
+	&__inner {
+		display: grid;
+		gap: 48px;
+		align-items: center;
+
+		@include ps-from("lg") {
+			grid-template-columns: minmax(0, 544px) minmax(0, 1fr);
+			gap: 96px;
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		min-width: 0;
+
+		@include ps-from("lg") {
+			gap: 35px;
+		}
+	}
+
+	&__title {
+		@include ps-type("h3");
+		@include ps-safe-text;
+
+		margin: 0;
+		font-weight: $ps-medium;
+		line-height: $ps-lh-heading;
+	}
+
+	&__text {
+		@include ps-safe-text;
+
+		margin: 0;
+		font-size: 16px;
+		color: $ps-grey;
+	}
+
+	&__media {
+		position: relative;
+		min-width: 0;
+
+		@include ps-until("lg") {
+			padding-bottom: 0;
+		}
+	}
+
+	&__image {
+		@include ps-media-box(410, 430);
+
+		border-radius: $ps-radius-lg;
+	}
+
+	// Yellow stats card: overlaps the photo on desktop, tucks under it on mobile.
+	&__stats {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 16px 32px;
+		padding: 20px 24px;
+		background-color: $ps-yellow-deep;
+		border-radius: $ps-radius-lg;
+
+		.ps-counter__label {
+			color: $ps-black;
+		}
+
+		@include ps-until("lg") {
+			position: relative;
+			width: calc(100% - 32px);
+			margin-top: -40px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		@include ps-from("lg") {
+			position: absolute;
+			bottom: 50px;
+			left: -64px;
+			justify-content: space-between;
+			width: calc(100% + 64px);
+			max-width: 410px;
+			padding: 20px 30px;
+		}
+	}
+
+	&__stats-divider {
+		width: 1px;
+		align-self: stretch;
+		min-height: 60px;
+		background-color: rgba(0, 0, 0, 0.2);
+
+		@include ps-until("sm") {
+			display: none;
+		}
+	}
+}

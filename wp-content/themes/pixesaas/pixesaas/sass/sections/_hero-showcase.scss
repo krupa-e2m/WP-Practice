@@ -1,0 +1,234 @@
+// Layout: hero_showcase — Figma "Container 03" (1:52)
+// Desktop: the exported illustration sits behind two floating cards.
+// Below lg the pieces stack, so nothing overlaps or overflows.
+.ps-showcase {
+	overflow: hidden;
+
+	&__stage {
+		position: relative;
+		display: grid;
+		gap: 32px;
+
+		@include ps-from("lg") {
+			grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+			align-items: stretch;
+			min-height: 620px;
+		}
+	}
+
+	&__art {
+		width: 100%;
+
+		@include ps-from("lg") {
+			position: absolute;
+			inset: 0;
+			z-index: 0;
+			pointer-events: none;
+		}
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+
+			@include ps-from("lg") {
+				height: 100%;
+				object-fit: contain;
+				object-position: center;
+			}
+		}
+	}
+
+	&__col {
+		position: relative;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		min-width: 0;
+
+		@include ps-from("lg") {
+			justify-content: space-between;
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+
+		&--end {
+
+			@include ps-from("lg") {
+				align-items: flex-end;
+			}
+		}
+	}
+
+	&__tagline {
+		@include ps-type("lead");
+		@include ps-safe-text;
+
+		max-width: 260px;
+		margin: 0;
+		color: $ps-grey;
+
+		strong {
+			font-weight: $ps-medium;
+			color: $ps-black;
+		}
+	}
+
+	&__trusted {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 16px;
+		font-size: 15px;
+		color: $ps-grey;
+	}
+
+	&__logos {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 14px;
+
+		img {
+			width: 40px;
+			height: 40px;
+			object-fit: contain;
+		}
+	}
+
+	// "525k+ / People trust us" pill.
+	&__counter {
+		display: inline-flex;
+		align-items: center;
+		gap: 15px;
+		align-self: flex-start;
+		padding: 16px;
+		background-color: $ps-grey-bg;
+		border-radius: 13px;
+
+		@include ps-from("lg") {
+			align-self: flex-end;
+		}
+	}
+
+	&__avatars {
+		display: flex;
+		flex-shrink: 0;
+
+		img {
+			width: 48px;
+			height: 48px;
+			border: 2px solid $ps-white;
+			border-radius: 50%;
+			object-fit: cover;
+
+			& + img {
+				margin-left: -16px;
+			}
+		}
+	}
+
+	&__counter-value {
+		display: block;
+		margin: 0;
+		font-size: 22px;
+		font-weight: $ps-medium;
+		line-height: 1.2;
+	}
+
+	&__counter-label {
+		display: block;
+		font-size: 12px;
+		color: $ps-grey;
+	}
+
+	// Rotated yellow "earnings" card.
+	&__card {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		width: 100%;
+		max-width: 280px;
+		padding: 18px;
+		background-color: $ps-yellow;
+		border-radius: $ps-radius-lg;
+
+		@include ps-from("lg") {
+			transform: rotate(3.33deg);
+		}
+	}
+
+	&__card-top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+	}
+
+	&__card-brand {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		font-size: 13px;
+		font-weight: $ps-light;
+
+		img {
+			width: 22px;
+			height: 22px;
+		}
+	}
+
+	&__card-period {
+		font-size: 11px;
+		color: $ps-grey;
+	}
+
+	&__card-amount {
+		@include ps-safe-text;
+
+		margin: 0;
+		font-size: 30px;
+		font-weight: $ps-medium;
+		line-height: 1.1;
+	}
+
+	&__card-label,
+	&__card-text {
+		margin: 0;
+		font-size: 11px;
+		font-weight: $ps-light;
+		color: $ps-grey;
+	}
+
+	&__card-foot {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+		padding: 6px 12px;
+		background-color: $ps-yellow-soft;
+		border-radius: $ps-radius-sm;
+	}
+
+	&__card-foot-amount {
+		font-size: 15px;
+		font-weight: $ps-medium;
+
+		small {
+			font-size: 10px;
+			font-weight: $ps-light;
+			color: $ps-grey;
+		}
+	}
+
+	&__card-pill {
+		padding: 5px 15px;
+		font-size: 10px;
+		color: $ps-white;
+		background-color: $ps-forest;
+		border-radius: $ps-radius-sm;
+	}
+}

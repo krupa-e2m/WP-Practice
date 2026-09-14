@@ -1,0 +1,247 @@
+// Site header / navbar — Figma "Navbar" (1:22)
+.ps-header {
+	position: relative;
+	z-index: 20;
+	background-color: $ps-white;
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		@include ps-from("lg") {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+	}
+
+	&__brand {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		flex-shrink: 0;
+		font-size: 22px;
+		font-weight: $ps-light;
+		color: $ps-black;
+		text-decoration: none;
+
+		@include ps-from("lg") {
+			font-size: 24px;
+		}
+
+		img {
+			width: auto;
+			max-height: 42px;
+		}
+
+		&:visited {
+			color: $ps-black;
+		}
+	}
+
+	&__name {
+		color: $ps-black;
+	}
+
+	&__toggle {
+		display: inline-flex;
+		flex-direction: column;
+		gap: 5px;
+		justify-content: center;
+		width: 44px;
+		height: 44px;
+		padding: 10px;
+		background: transparent;
+		border: 1px solid $ps-border;
+		border-radius: 8px;
+		cursor: pointer;
+
+		@include ps-from("lg") {
+			display: none;
+		}
+
+		span {
+			display: block;
+			height: 2px;
+			background-color: $ps-black;
+			transition: transform 0.2s ease, opacity 0.2s ease;
+		}
+
+		&[aria-expanded="true"] span:nth-child(1) {
+			transform: translateY(7px) rotate(45deg);
+		}
+
+		&[aria-expanded="true"] span:nth-child(2) {
+			opacity: 0;
+		}
+
+		&[aria-expanded="true"] span:nth-child(3) {
+			transform: translateY(-7px) rotate(-45deg);
+		}
+
+		&:focus-visible {
+			outline: 2px solid $ps-black;
+			outline-offset: 2px;
+		}
+	}
+
+	// Nav + actions collapse into a dropdown panel below lg.
+	&__nav {
+
+		@include ps-until("lg") {
+			position: absolute;
+			top: 100%;
+			left: 0;
+			display: none;
+			width: 100%;
+			padding: 16px 0 24px;
+			background-color: $ps-white;
+			border-bottom: 1px solid $ps-border;
+			box-shadow: 0 18px 30px rgba(0, 0, 0, 0.08);
+
+			&.is-open {
+				display: block;
+			}
+		}
+
+		@include ps-from("lg") {
+			display: flex;
+			flex: 1 1 auto;
+			align-items: center;
+			justify-content: space-between;
+			gap: 24px;
+		}
+	}
+
+	&__nav-inner {
+		@include ps-container;
+
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
+		@include ps-from("lg") {
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			max-width: none;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	&__menu {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		@include ps-from("lg") {
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		li {
+			position: relative;
+		}
+
+		a {
+			display: block;
+			padding: 10px 0;
+			font-size: 16px;
+			color: $ps-black;
+			text-decoration: none;
+
+			@include ps-from("lg") {
+				padding: 10px 20px;
+			}
+
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+
+		// Only one level of nav is in the design; deeper levels stay readable.
+		.sub-menu {
+			display: flex;
+			flex-direction: column;
+			margin: 0;
+			padding-left: 16px;
+			list-style: none;
+
+			@include ps-from("lg") {
+				position: absolute;
+				top: 100%;
+				left: 0;
+				z-index: 5;
+				display: none;
+				min-width: 200px;
+				padding: 8px 0;
+				background-color: $ps-white;
+				border: 1px solid $ps-border;
+				border-radius: $ps-radius;
+			}
+		}
+
+		li:hover > .sub-menu,
+		li:focus-within > .sub-menu {
+
+			@include ps-from("lg") {
+				display: flex;
+			}
+		}
+	}
+
+	&__actions {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 16px;
+
+		@include ps-from("lg") {
+			flex-shrink: 0;
+			gap: 35px;
+		}
+
+		.ps-btn {
+			min-height: 48px;
+			padding: 12px 24px;
+			font-size: 16px;
+
+			@include ps-from("lg") {
+				min-height: 56px;
+				padding: 16px 32px;
+				font-size: 18px;
+			}
+		}
+
+		@include ps-until("lg") {
+			width: 100%;
+
+			.ps-btn {
+				flex: 1 1 auto;
+			}
+		}
+	}
+
+	&__login {
+		font-size: 16px;
+		color: $ps-black;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
+	}
+}

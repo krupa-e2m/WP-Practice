@@ -1,0 +1,43 @@
+// Layout: logo_wall — Figma "Container 10" (1:3841)
+.ps-logowall {
+
+	&__head {
+		margin-bottom: 32px;
+	}
+
+	&__grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 16px;
+
+		@include ps-from("md") {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 24px;
+		}
+
+		@include ps-from("lg") {
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+			gap: 30px;
+		}
+	}
+
+	&__item {
+		@include ps-media-box(256, 138, contain);
+
+		background-color: transparent;
+		border-radius: $ps-radius;
+
+		img {
+			padding: 8px;
+		}
+	}
+
+	a.ps-logowall__item {
+		transition: opacity 0.2s ease;
+
+		&:hover,
+		&:focus {
+			opacity: 0.75;
+		}
+	}
+}

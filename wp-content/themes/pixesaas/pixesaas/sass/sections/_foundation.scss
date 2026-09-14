@@ -1,0 +1,292 @@
+// -----------------------------------------------------------------------------
+// Shared section chrome: container, band, headings, buttons, cards.
+// Every flexible-content layout builds on these.
+// -----------------------------------------------------------------------------
+
+.ps-page {
+	font-family: $ps-font;
+	color: $ps-black;
+	line-height: $ps-lh-body;
+	background-color: $ps-white;
+
+	// A stray long word in any field must never widen the document.
+	overflow-x: hidden;
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.ps-container {
+	@include ps-container;
+}
+
+// A full-bleed band. Background colour is driven by the ACF "background" choice.
+.ps-section {
+	@include ps-section-space;
+
+	position: relative;
+	background-color: $ps-white;
+
+	&--grey {
+		background-color: $ps-grey-bg;
+	}
+
+	&--black {
+		color: $ps-white;
+		background-color: $ps-black;
+	}
+
+	// Half the section rhythm — for bands that visually belong to the one above.
+	&--tight {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	&--flush-top {
+		padding-top: 0;
+	}
+
+	&--flush-bottom {
+		padding-bottom: 0;
+	}
+}
+
+// Section header (eyebrow + heading + intro), centred or left aligned.
+.ps-head {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	max-width: 770px;
+
+	&--center {
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	&--wide {
+		max-width: 992px;
+	}
+
+	&__eyebrow {
+		@include ps-type("caption");
+
+		margin: 0;
+		font-weight: $ps-medium;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: $ps-grey;
+	}
+
+	&__title {
+		@include ps-type("h2");
+		@include ps-safe-text;
+
+		margin: 0;
+		font-weight: $ps-semibold;
+		line-height: $ps-lh-heading;
+	}
+
+	&__text {
+		@include ps-type("lead");
+		@include ps-safe-text;
+
+		margin: 0;
+		color: $ps-grey;
+	}
+}
+
+// Buttons ---------------------------------------------------------------------
+
+.ps-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	min-height: 56px;
+	padding: 16px 32px;
+	border: 1px solid transparent;
+	border-radius: $ps-radius;
+	font-family: inherit;
+	font-size: 18px;
+	font-weight: $ps-regular;
+	line-height: 1.2;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+
+	@include ps-from("lg") {
+		min-height: 64px;
+		padding: 20px 40px;
+		font-size: 20px;
+	}
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		transform: translateY(-1px);
+	}
+
+	&:focus-visible {
+		outline: 2px solid $ps-black;
+		outline-offset: 3px;
+	}
+
+	&--primary {
+		color: $ps-white;
+		background-color: $ps-black;
+
+		&:hover,
+		&:focus {
+			color: $ps-white;
+			background-color: #1c1c1c;
+		}
+	}
+
+	&--outline {
+		color: $ps-black;
+		background-color: transparent;
+		border-color: $ps-black;
+
+		&:hover,
+		&:focus {
+			color: $ps-white;
+			background-color: $ps-black;
+		}
+	}
+
+	&--light {
+		color: $ps-black;
+		background-color: $ps-white;
+
+		&:hover,
+		&:focus {
+			color: $ps-black;
+			background-color: $ps-grey-bg;
+		}
+	}
+
+	&--block {
+		width: 100%;
+	}
+}
+
+// Text link with trailing arrow ("Learn more").
+.ps-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	font-size: 16px;
+	color: $ps-black;
+	text-decoration: none;
+
+	img,
+	svg {
+		width: 24px;
+		height: 24px;
+		transition: transform 0.2s ease;
+	}
+
+	&:hover img,
+	&:focus img {
+		transform: translateX(4px);
+	}
+
+	&:focus-visible {
+		outline: 2px solid $ps-black;
+		outline-offset: 3px;
+	}
+}
+
+.ps-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+
+	&--center {
+		justify-content: center;
+	}
+
+	@include ps-until("sm") {
+		flex-direction: column;
+		align-items: stretch;
+		width: 100%;
+
+		.ps-btn {
+			width: 100%;
+		}
+	}
+}
+
+// Counters (used by the stats and world-map layouts).
+.ps-counter {
+	text-align: center;
+
+	&__value {
+		@include ps-type("h2");
+
+		display: block;
+		margin: 0;
+		font-weight: $ps-semibold;
+		line-height: 1;
+	}
+
+	&__label {
+		@include ps-type("caption");
+
+		display: block;
+		margin-top: 10px;
+		color: $ps-grey;
+	}
+}
+
+// Generic grid used by several layouts.
+.ps-grid {
+	display: grid;
+	gap: 32px;
+
+	&--2 {
+		grid-template-columns: 1fr;
+
+		@include ps-from("md") {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+
+	&--3 {
+		grid-template-columns: 1fr;
+
+		@include ps-from("md") {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		@include ps-from("lg") {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+	}
+
+	&--4 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+
+		@include ps-from("lg") {
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+		}
+	}
+}
+
+// Editor-facing notice shown when a dynamic section has nothing to show.
+.ps-empty {
+	padding: 32px;
+	border: 1px dashed $ps-border;
+	border-radius: $ps-radius;
+	color: $ps-grey;
+	text-align: center;
+}

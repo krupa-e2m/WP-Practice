@@ -1,0 +1,86 @@
+// -----------------------------------------------------------------------------
+// Design tokens — mirrored 1:1 from the PixeSaaS Figma file.
+// Figma variables live in the "Design tokens" table of FIGMA-REFERENCE.md.
+// -----------------------------------------------------------------------------
+
+// Brand palette (real Figma variables).
+$ps-black: #000;
+$ps-white: #fff;
+$ps-grey: #666;
+$ps-border: #c4c4c4;
+$ps-grey-bg: #f9f9fb;
+$ps-green-bg: #f4fcda;
+$ps-blue-bg: #e0f7fa;
+$ps-pink-bg: #fef2f3;
+$ps-yellow-bg: #fef7ca;
+
+// Non-tokenised hexes that appear in the design (kept as literals in Figma too).
+$ps-red: #ef1231;
+$ps-yellow: #ffd34e;
+$ps-yellow-deep: #fbd550;
+$ps-yellow-soft: #fff4d3;
+$ps-forest: #042925;
+$ps-lime: #c9f269;
+$ps-green: #12c64b;
+$ps-blue: #3090c3;
+
+// Accent tints used by the "four steps" cards, keyed by the ACF colour choice.
+$ps-accents: (
+	"green": $ps-green-bg,
+	"blue": $ps-blue-bg,
+	"pink": $ps-pink-bg,
+	"yellow": $ps-yellow-bg,
+	"grey": $ps-grey-bg,
+);
+
+// Typography — single family, Inter.
+$ps-font: "Inter", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif;
+
+// Figma type ramp: name => (min, max) in px. Min = mobile, max = the Figma value.
+$ps-type: (
+	"h1": (36, 76),
+	"h2": (30, 61),
+	"h3": (26, 49),
+	"h5": (22, 31),
+	"h6": (20, 25),
+	"lead": (17, 20),
+	"body": (16, 18),
+	"caption": (15, 16),
+);
+
+// Line heights. Figma exports `normal` on every style (line-height 100); the
+// reference file itself recommends real ratios for a production build.
+$ps-lh-tight: 1.15;
+$ps-lh-heading: 1.2;
+$ps-lh-body: 1.55;
+
+// Weights.
+$ps-light: 300;
+$ps-regular: 400;
+$ps-medium: 500;
+$ps-semibold: 600;
+
+// Structure. Page gutter 160px => 1120px content column.
+$ps-container: 1120px;
+$ps-gutter-desktop: 160px;
+$ps-gutter-tablet: 40px;
+$ps-gutter-mobile: 20px;
+
+// Section rhythm — 80px top/bottom is the Figma default.
+$ps-section-y: 80px;
+$ps-section-y-mobile: 56px;
+
+// Radius scale.
+$ps-radius-sm: 5px;
+$ps-radius: 10px;
+$ps-radius-md: 15px;
+$ps-radius-lg: 20px;
+$ps-radius-pill: 56px;
+
+// Breakpoints.
+$ps-bp: (
+	"sm": 480px,
+	"md": 768px,
+	"lg": 1024px,
+	"xl": 1280px,
+);

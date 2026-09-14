@@ -1,0 +1,315 @@
+// Layout: feature_split — Figma "Container 04" (1:113)
+.ps-split {
+
+	&__inner {
+		display: grid;
+		gap: 40px;
+		align-items: center;
+
+		@include ps-from("lg") {
+			grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+			gap: 58px;
+		}
+	}
+
+	// Nothing to show in the media column: one column instead of a gap.
+	&--no-media &__inner {
+
+		@include ps-from("lg") {
+			grid-template-columns: minmax(0, 1fr);
+		}
+	}
+
+	// Editor can flip which side the media sits on.
+	&__inner--media-right {
+
+		@include ps-from("lg") {
+
+			.ps-split__media {
+				order: 2;
+			}
+		}
+	}
+
+	&__media {
+		min-width: 0;
+	}
+
+	&__image {
+		@include ps-media-box(517, 490);
+
+		border-radius: $ps-radius-lg;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		min-width: 0;
+
+		@include ps-from("lg") {
+			gap: 40px;
+		}
+	}
+
+	&__title {
+		@include ps-type("h3");
+		@include ps-safe-text;
+
+		margin: 0;
+		font-weight: $ps-medium;
+		line-height: $ps-lh-heading;
+	}
+
+	&__items {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	&__item {
+		display: flex;
+		gap: 20px;
+		align-items: flex-start;
+	}
+
+	&__item-icon {
+		flex: 0 0 50px;
+
+		img {
+			width: 50px;
+			height: 50px;
+			object-fit: contain;
+		}
+	}
+
+	&__item-body {
+		min-width: 0;
+	}
+
+	&__item-title {
+		@include ps-type("h6");
+		@include ps-safe-text;
+
+		margin: 0 0 12px;
+		font-weight: $ps-medium;
+		line-height: $ps-lh-heading;
+	}
+
+	&__item-text {
+		@include ps-safe-text;
+
+		margin: 0;
+		font-size: 16px;
+		color: $ps-grey;
+	}
+}
+
+// The mock banking-app card that fills the left column of the Figma frame.
+// Every string in it is an ACF field, so it is markup — not a flattened PNG.
+.ps-appcard {
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+	padding: 20px;
+	background-color: $ps-grey-bg;
+	border-radius: $ps-radius-lg;
+
+	@include ps-from("md") {
+		padding: 32px;
+	}
+
+	&__panel {
+		padding: 20px;
+		background-color: $ps-white;
+		border-radius: 18px;
+	}
+
+	&__head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+	}
+
+	&__person {
+		display: flex;
+		align-items: center;
+		gap: 14px;
+		min-width: 0;
+	}
+
+	&__avatar {
+		flex: 0 0 50px;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+
+	&__name {
+		display: block;
+		font-size: 15px;
+		line-height: 1.2;
+		overflow-wrap: anywhere;
+	}
+
+	&__status {
+		display: block;
+		font-size: 10px;
+		font-weight: $ps-light;
+		color: $ps-grey;
+	}
+
+	&__time {
+		flex-shrink: 0;
+		font-size: 11px;
+		font-weight: $ps-light;
+		color: $ps-grey;
+	}
+
+	&__message {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 12px;
+		margin: 20px 0 0;
+
+		p {
+			@include ps-safe-text;
+
+			margin: 0;
+			font-size: 14px;
+			font-weight: $ps-light;
+			line-height: 1.35;
+		}
+	}
+
+	&__badge {
+		display: inline-flex;
+		flex-shrink: 0;
+		align-items: center;
+		justify-content: center;
+		min-width: 22px;
+		height: 22px;
+		padding: 0 6px;
+		font-size: 13px;
+		background-color: $ps-lime;
+		border-radius: 18px;
+	}
+
+	&__tabs {
+		display: flex;
+		align-items: center;
+		gap: 14px;
+		font-size: 12px;
+		font-weight: $ps-light;
+		color: $ps-grey;
+	}
+
+	&__tab {
+
+		&.is-active {
+			color: $ps-black;
+		}
+	}
+
+	&__sort {
+		display: inline-flex;
+		gap: 6px;
+		align-items: center;
+		margin-left: auto;
+
+		img {
+			width: 10px;
+			height: 10px;
+		}
+	}
+
+	&__rows {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		margin-top: 10px;
+	}
+
+	&__row {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		padding: 14px 16px;
+		background-color: $ps-grey-bg;
+		border-radius: 17px;
+	}
+
+	&__row-icon {
+		display: inline-flex;
+		flex: 0 0 45px;
+		align-items: center;
+		justify-content: center;
+		width: 45px;
+		height: 45px;
+		border-radius: $ps-radius;
+
+		img {
+			width: 24px;
+			height: 24px;
+			object-fit: contain;
+		}
+
+		&--plain {
+			background-color: transparent;
+
+			img {
+				width: 45px;
+				height: 45px;
+			}
+		}
+	}
+
+	&__row-text {
+		min-width: 0;
+
+		strong {
+			display: block;
+			font-size: 13px;
+			font-weight: $ps-regular;
+			line-height: 1.2;
+			overflow-wrap: anywhere;
+		}
+
+		small {
+			display: block;
+			font-size: 10px;
+			font-weight: $ps-light;
+			color: $ps-grey;
+		}
+	}
+
+	&__row-amount {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		margin-left: auto;
+		text-align: right;
+
+		strong {
+			font-size: 13px;
+			font-weight: $ps-regular;
+			white-space: nowrap;
+		}
+
+		small {
+			font-size: 10px;
+			font-weight: $ps-light;
+		}
+
+		&--debit strong {
+			color: $ps-red;
+		}
+
+		&--credit strong {
+			color: $ps-green;
+		}
+	}
+}

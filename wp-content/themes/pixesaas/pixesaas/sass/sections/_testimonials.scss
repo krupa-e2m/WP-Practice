@@ -1,0 +1,102 @@
+// Layout: testimonials — Figma "Container 09" (1:3820)
+.ps-testimonials {
+
+	&__head {
+		margin-bottom: 48px;
+
+		@include ps-from("lg") {
+			margin-bottom: 90px;
+		}
+	}
+
+	&__grid {
+		display: grid;
+		gap: 56px;
+
+		@include ps-from("lg") {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 90px;
+		}
+	}
+
+	&__item {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__mark {
+		position: relative;
+		z-index: 2;
+		align-self: center;
+		width: 70px;
+		height: 70px;
+		margin-bottom: -35px;
+
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+	}
+
+	&__card {
+		display: flex;
+		flex: 1 1 auto;
+		flex-direction: column;
+		justify-content: center;
+		gap: 32px;
+		padding: 56px 24px 40px;
+		text-align: center;
+		background-color: $ps-grey-bg;
+		border-radius: $ps-radius-lg;
+
+		@include ps-from("lg") {
+			gap: 50px;
+			padding: 70px 30px;
+		}
+	}
+
+	&__quote {
+		@include ps-type("h6");
+		@include ps-safe-text;
+
+		margin: 0;
+		font-weight: $ps-medium;
+		line-height: $ps-lh-heading;
+	}
+
+	&__author {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 24px;
+		text-align: left;
+	}
+
+	&__avatar {
+		flex: 0 0 78px;
+		width: 78px;
+		height: 78px;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+
+	&__name {
+		@include ps-type("h6");
+		@include ps-safe-text;
+
+		display: block;
+		margin: 0;
+		font-weight: $ps-medium;
+		line-height: 1.2;
+	}
+
+	&__role {
+		display: block;
+		margin-top: 8px;
+		font-size: 16px;
+		color: $ps-grey;
+	}
+}
