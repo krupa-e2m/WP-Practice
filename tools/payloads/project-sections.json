@@ -1,0 +1,30 @@
+{
+  "type": "project",
+  "title": "REST Project Field - 222",
+  "status": "publish",
+  "content": "Created over the REST API to exercise ACF Flexible Content writes.",
+  "acf": {
+    "page_sections": [
+      {
+        "acf_fc_layout": "hero",
+        "title": "Built Through the REST API",
+        "subtitle": "Three Flexible Content layouts, one POST request.",
+        "background_image": 556
+      },
+      {
+        "acf_fc_layout": "text_block",
+        "heading": "Why This Matters",
+        "content": "<p>ACF accepts a <code>page_sections</code> array on create when the field group has <strong>Show in REST</strong> enabled and its location rules match this post type.</p><p>Each row is identified by its <code>acf_fc_layout</code> key.</p>"
+      },
+      {
+        "acf_fc_layout": "stats_section",
+        "section-name": "Module Results",
+        "stat_items": [
+          { "number": 3, "label": "Layouts posted" },
+          { "number": 1, "label": "Request made" },
+          { "number": 570, "label": "Attachment ID used" }
+        ]
+      }
+    ]
+  }
+}
