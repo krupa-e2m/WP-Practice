@@ -42,6 +42,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Media
 	- Captions
 	- Galleries
+# Sections
+	- Testimonials
+	- Test
 # plugins
 	- Jetpack infinite scroll
 # Utilities
@@ -80,6 +83,18 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Components
 --------------------------------------------------------------*/
 @import "components/components";
+
+/*--------------------------------------------------------------
+# Sections (ACF page_sections layouts)
+--------------------------------------------------------------*/
+
+/* Testimonials
+--------------------------------------------- */
+@import "sections/testimonials";
+
+/* Test
+--------------------------------------------- */
+@import "sections/test";
 
 /*--------------------------------------------------------------
 # Plugins

@@ -1,0 +1,8 @@
+{
+  "name": "e2m-wordpress-tools",
+  "description": "Reusable WordPress development, ACF scaffolding, and code review tools.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Krupa Thakkar"
+  }
+}
